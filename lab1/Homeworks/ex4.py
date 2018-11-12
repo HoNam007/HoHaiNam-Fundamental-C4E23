@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from matplotlib import pyplot
-uri= "mongodb://admin:admin2@ds119150.mlab.com:19150/c4e23-blog"
+uri= "mongodb://admin:admin@ds021182.mlab.com:21182/c4e"
 client= MongoClient(uri)
 data_base= client.get_database()
 customers= data_base["customers"]

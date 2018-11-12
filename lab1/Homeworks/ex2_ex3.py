@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-uri= "mongodb://admin:admin2@ds119150.mlab.com:19150/c4e23-blog"
+uri= "mongodb://admin:admin2@ds021182.mlab.com:21182/c4e"
 client= MongoClient(uri)
 data_base= client.get_database()
 posts=data_base["posts"]
